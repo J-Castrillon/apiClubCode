@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- JavaScript -->
+    <script src="../scripts/script.js" type="text/javascript"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/desktop.css" media="screen and(min-width: 800px) and(max-width: 2000px)">
+    <link rel="stylesheet" href="../styles/tablet.css" media="screen and(min-width: 500px) and(max-width: 799px)">
+    <title>Login</title>
+</head>
+
+<body id="body">
+    <header id="header-login" class="flexCenter">
+        <div>
+            <h1>Register</h1>
+        </div>
+        <div>
+            <h2>Create your account</h2>
+        </div>
+    </header>
+    <main id="main-login">
+        <form action="#" id="form-login">
+            <div class="inputs-login">
+                <label for="userName" class="img-label">
+                    <img src="../resources/user.png" alt="user icon" class="img" title="user icon">
+                </label>
+                <input type="text" name="username" id="userName" class="input" placeholder="UserName">
+            </div>
+            <div class="inputs-login">
+                <label for="email" class="img-label">
+                    <img src="../resources/envelope-open.png" alt="Email" class="img" title="Email">
+                </label>
+                <input type="email" name="email" id="email" class="input" placeholder="Email">
+            </div>
+            <div class="inputs-login">
+                <label for="password" class="img-label">
+                    <img src="../resources/lock-key.png" alt="Lock" class="img" title="lock">
+                </label>
+                <input type="password" name="password" id="password" class="input" placeholder="Password">
+            </div>
+            <div class="inputs-login">
+                <label for="confirm" class="img-label">
+                    <img src="../resources/lock-key.png" alt="Lock" class="img" title="Lock">
+                </label>
+                <input type="password" name="passwordC" id="confirm" class="input" placeholder="Confirm Password">
+            </div>
+            <div id="text" class="text">
+                <p>Registrar una nueva cuenta</p>
+            </div>
+            <div id="button-content" class="button-content">
+                <input type="submit" value="Enviar" id="enviar">
+            </div>
+        </form>
+
+    </main>
+    <footer id="footer">
+        <p id="signin">
+            <a href="" id="signin-link">
+                Si ya tienes una cuenta, 
+                <span id="link">Ingresa.</span> 
+            </a>
+        </p>
+    </footer>
+</body>
+
+</html>
